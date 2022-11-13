@@ -14,6 +14,8 @@ Ce convertisseur de chiffres en lettres est pratique pour écrire les nombres en
 	echo $number->number2letter(123.3,"EUROS","CENTIMES");
 	//CENT VINGT TROIS EUROS TRENTE CENTIMES
 
+```
+
 ## PHP ARABE
 ```php
 	use Kompassit\Numbertoletter\Index;
@@ -21,4 +23,3 @@ Ce convertisseur de chiffres en lettres est pratique pour écrire les nombres en
 	$number = new Index();$number->setLng("ar");
 	echo $number->number2letter(123.3);
 	//مائة و ثلاثة و عشرون درهم و ثلاثة سنتيمات
-

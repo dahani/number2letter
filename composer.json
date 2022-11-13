@@ -1,0 +1,22 @@
+{
+    "name": "kompassit/numbertoletter",
+    "description": "Convert a number to text (french,arabic)",
+    "type": "library",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Kompassit\\Numbertoletter\\": "src/"
+        },
+		"files": [
+            "src/index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "dahani youness",
+            "email": "dahaniyouness@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
